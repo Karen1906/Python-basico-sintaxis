@@ -15,7 +15,6 @@ print(multiplicacion)
 print(division)
 print(modulo)
 print(exponente)
-
 #2. Operadores de comparación
 print( 5 == 5 )  #igual a
 print( 5 != 5 )  #Diferente de 
@@ -43,3 +42,28 @@ print(f and f)
 print('------------------------------------NOT')
 print(not v)
 print(not f)
+
+#4. Operadores de Asignación
+# suma y asigna (+-)
+print('-------------------------------------+=')
+edad = 20
+edad += 5
+print(edad)
+
+#resta y asigna (-=)
+print('--------------------------------------=')
+saldo = 100
+saldo -= 10 
+print(saldo)
+
+#multiplica y asigna (*=)
+print('----------------------------------------*=')
+precio = 30
+precio *= 5
+print(precio)
+
+# Divide y asigna (/=)
+print('---------------------------------------/=')
+precio = 200
+precio /= 2
+print(precio) 
